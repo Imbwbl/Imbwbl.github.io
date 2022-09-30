@@ -1,0 +1,97 @@
+html,
+body {
+    background-color: aliceblue;
+    overflow: none;
+    padding: 0;
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.card {
+    animation: card 500ms cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    transition: all 150ms;
+    display: flex;
+    justify-content: flex-start;
+    background-color: coral;
+    margin: 4em 8em 0em 8em;
+    padding: 20px;
+    height: calc(100vh - 8em - 40px);
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.profile-pic {
+
+    padding: 5px;
+    object-fit: cover;
+    width: 8em;
+    height: 20%;
+    border-radius: 20px;
+}
+
+.profile-pics {
+    justify-self: flex-start;
+}
+
+.profile-name {
+    width: 10em;
+    padding: 5px;
+    height: 7em;
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: 2em;
+    background-color: indianred;
+    border-radius: 20px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 640px) {
+    .profile-name {
+        height: 7em;
+    }
+
+    .card {
+        margin: 5px;
+        height: calc(100vh - 10px - 40px);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-pic {
+        justify-self: center;
+        height: auto;
+        width: 20em;
+    }
+}
+
+@keyframes card {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes profile-in {}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+#bar {
+    animation: blink 600ms linear infinite alternate;
+    margin-left: -4px;
+
+}

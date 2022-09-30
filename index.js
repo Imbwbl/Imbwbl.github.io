@@ -1,4 +1,4 @@
-const mots = ["sympa", "dev", "joueur", "amical"]
+const mots = ["sympa", "dev", "amical"]
 let indexMot = 0
 let indexCaractere = 0
 let suppressionEnCours = false

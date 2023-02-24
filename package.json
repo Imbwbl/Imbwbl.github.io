@@ -1,20 +1,12 @@
 {
-  "name": "imbwbl-github-io",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "bwbl.me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^2.0.2",
-    "svelte": "^3.55.1",
-    "vite": "^4.1.0"
-  },
-  "dependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -27,7 +27,7 @@
         <div class="card">
             <div class="pic">
                 <div class="circle"></div>
-                <img src="./src/assets/icon.svg" alt="adidas">
+                <img src="/icon.svg" alt="icon">
                 <div class="title">
                     <h1>BWBL</h1>
                 </div>

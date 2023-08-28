@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+:root {
+    font-family: 'Sen', sans-serif;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+html, body, .main {
+    background: #252B48;
+    margin: 0;
+    height: 100%;
+}
+
+body, .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 60%;
+}
+
+.card {
+
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    border: #445069 2px solid;
+    background: #353c5e;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.25);
+}
+
+.profile {
+}
+
+.friends {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h2 {
+    align-self: center;
+    font-size: large;
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.picture {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    margin-right: 10px;
+    transition: all 500ms;
+}
+
+.picture:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.profile-picture {
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    transition: all 500ms;
+}
+
+.profile-picture:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.socials {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social {
+    text-decoration: underline;
+}
+
+.musics {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.webring {
+    margin: 20px;
+    text-align: center;
+}
+
+.music {
+    overflow: auto;
+}
+
+/* debug
+
+.card-container {
+    border: red solid 10px;
+}
+*/

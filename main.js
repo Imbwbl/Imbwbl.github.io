@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
   let musicDiv = document.querySelector(".music");
-  fetch("http://127.0.0.1:8000/")
+  fetch("https://t2006api-gaming.theking90000.be/")
     .then((r) => r.json())
     .then((data) => {
       console.log(data.recenttracks.track);
